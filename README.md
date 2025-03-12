@@ -29,7 +29,7 @@ Para ejecutar el juego necesitas tener instalado **Python 3**.
 ## 🧠 Algoritmo A\*
 
 El juego implementa el **algoritmo A**\* para calcular la mejor ruta entre dos puntos evitando obstáculos.\
-El código se encuentra en `algoritmo_a_estrella.py`.
+El código se encuentra en `algoritmoalstar.py`.
 
 ## 📂 Estructura del Proyecto
 
@@ -37,9 +37,9 @@ El código se encuentra en `algoritmo_a_estrella.py`.
 📁 Counter-Strike 2D
 │── main.py                 # Código principal del juego
 │── jugador.py              # Clase del jugador
-│── algoritmo_a_estrella.py  # Implementación del algoritmo A*
-│── constantes.py            # Variables del juego
-│── README.md                # Este archivo
+│── algoritmoalstar.py      # Implementación del algoritmo A*
+│── constantes.py           # Variables del juego
+│── README.md               # Este archivo
 ```
 
 ## 📢 Créditos
