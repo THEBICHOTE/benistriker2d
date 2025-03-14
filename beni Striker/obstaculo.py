@@ -1,14 +1,11 @@
 import pygame
 
-class obstaculo (pygame.sprite.Sprite):
-    def __init__(self, x, y, ancho, alto):
+class Obstaculo(pygame.sprite.Sprite):
+    def __init__(self, x, y, width, height):
         super().__init__()
-        self.image = pygame.Surface([ancho, alto])
-        # obstaculo gris
-        self.image.fill((128, 128, 128))  
-        self.rect = self.image.get_rect()
-        self.rect.x = x
-        self.rect.y = y
+        self.image = pygame.Surface((width, height))
+        self.image.fill((255, 0, 0))  # Color rojo para identificarlo
+        self.rect = self.image.get_rect(topleft=(x, y))
 
     def dibujar(self, ventana):
         ventana.blit(self.image, self.rect)
