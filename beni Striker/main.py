@@ -3,7 +3,7 @@ import constantes
 from ai import behavior_tree
 from obstaculo import Obstaculo
 from Jugador  import Jugador
-import bala
+from bala import bala
 
 # Crear instancia del jugador
 jugador = Jugador(x=50, y=50)
