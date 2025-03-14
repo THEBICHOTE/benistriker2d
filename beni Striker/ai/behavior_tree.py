@@ -32,3 +32,18 @@ class Task(Node):
 
     def run(self, bot):
         return self.action(bot)  # Ejecuta la acción y devuelve éxito o fallo
+class DispararSiCerca:
+    def ejecutar(self, enemigo, jugador):
+        # Lógica para disparar si el jugador está cerca
+        pass
+
+class PerseguirJugador:
+    def ejecutar(self, enemigo, jugador):
+        # Lógica para perseguir al jugador
+        pass
+
+class Patrullar:
+    def ejecutar(self, enemigo, jugador):
+        # Lógica para patrullar
+        pass
+
